@@ -1,0 +1,23 @@
+{\rtf1\ansi\ansicpg950\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset136 PingFangTC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1.\
+a.feature engineering\
+	
+\f1 \'b3\'6f\'ad\'d3\'b3\'a1\'a4\'c0\'a7\'da\'c6\'5b\'b9\'eeReadme\'a4\'e5\'a5\'f3\'aa\'ba\'bb\'a1\'a9\'fa\'a1\'41\'a7\'e2EDUCATION\'c3\'fe\'aa\'ba0,4,5,6\'b3\'a3map\'a6\'a80\'a1\'41\'b5\'4d\'ad\'d4\'a5\'cexgboost\'ae\'4d\'a5\'f3\'b0\'b5\'a5\'58feature importance\'a1\'41\'b5\'6f\'b2\'7b\'b2\'c4\'a4\'40\'a6\'57\'ac\'4fPAY_1\'a1\'41\'a4\'47\'a4\'54\'a6\'57\'a4\'c0\'a7\'4f\'ac\'4fBILL_AMT1, PAY_AMT1, \'b3\'cc\'ab\'e1\'a4\'40\'a6\'57\'ac\'4fSEX\'a1\'41\'a9\'d2\'a5\'48\'a7\'da\'a5\'fd\'b1\'4ePAY_1\'b0\'b5one_hot_encoding\'a1\'41\'a6\'d3\'a8\'e4\'a5\'4cfeature\'aa\'ba\'bd\'d5\'be\'e3\'ab\'68\'ae\'da\'be\'damodel\'ab\'d8\'a7\'b9\'a4\'a7\'ab\'e1\'bd\'d5\'be\'e3\'a1\'41\'bd\'d5\'be\'e3\'a8\'cf\'a5\'ce\'aa\'ba\'ba\'74\'ba\'e2\'aa\'6b\'ac\'b0cross validation\'a1\'41\'a8\'cf\'a5\'ce\'ae\'4d\'a5\'f3\'ac\'b0sklearn\'aa\'baStratifiedKFold\'a1\'43\
+b.\'ab\'d8\'ba\'63model\
+	model\'aa\'ba\'b3\'a1\'a4\'c0\'a7\'da\'bf\'ef\'be\'dc\'aa\'ba\'ac\'4fkeras\'aa\'baDeep neuron network\'a1\'41\'ad\'ec\'a6\'5d\'ac\'b0\'a7\'da\'b4\'fa\'b8\'d5\'a4\'46randomforest, xgboost\'aa\'ba\'b5\'b2\'aa\'47\'b3\'a3\'a8\'53\'a6\'b3keras\'a8\'d3\'b1\'6f\'c0\'75\'a8\'71\'a1\'41\'a5\'75\'ac\'4fkeras\'aa\'ba\'af\'ca\'c2\'49\'b4\'4e\'ac\'4f\'a8\'43\'a6\'b8\'b6\'5d\'aa\'ba\'b5\'b2\'aa\'47\'b3\'a3\'b7\'7c\'a4\'a3\'a4\'d3\'a4\'40\'bc\'cb\'a1\'41\'a9\'d2\'a5\'48\'a6\'b3\'ae\'c9\'ad\'d4\'b7\'7c\'af\'53\'a7\'4f\'c0\'75\'a8\'71\'a6\'fd\'a6\'b3\'ae\'c9\'ad\'d4\'b4\'4e\'b7\'7c\'af\'53\'a7\'4f\'ae\'74\'a1\'41\'ac\'b0\'a4\'46\'ad\'b0\'a7\'43\'c0\'48\'be\'f7\'a9\'ca\'a7\'da\'a5\'ce\'a4\'46np.random.seed()\'a9\'4dtensorflow\'aa\'baset_random_seed()\'a1\'41\'a6\'fd\'c1\'d9\'ac\'4f\'b5\'4c\'aa\'6b\'a8\'cf\'b1\'6f\'a8\'43\'a6\'b8\'aa\'ba\'bf\'e9\'a5\'58\'b5\'b2\'aa\'47\'b3\'a3\'a4\'40\'bc\'cb\'a1\'43\'bc\'d2\'ab\'ac\'aa\'ba\'ab\'d8\'a5\'df\'a4\'57\'a7\'da\'a8\'cf\'a5\'ceGridSearchCV\'a8\'d3\'bd\'d5\'be\'e3\'a7\'da\'aa\'ba\'b0\'d1\'bc\'c6\'a1\'41\'a8\'c3\'a8\'cf\'a5\'cekeras\'ae\'4d\'a5\'f3\'b8\'cc\'ad\'b1\'aa\'baModelCheckpoint\'a8\'d3\'bf\'e9\'a5\'58\'b0\'56\'bd\'6d\'a4\'a4\'b3\'cc\'a6\'6e\'aa\'bamodel\'a1\'43\
+\
+2.\'a6\'62\'bf\'e9\'a4\'4a\'bc\'68\'b6\'c7\'a4\'4a
+\f0 30
+\f1 \'ad\'d3
+\f0 input(features)
+\f1 \'a1\'41\'b2\'c4\'a4\'40\'bc\'68\'a6\'b3200\'ad\'d3units\'a1\'41\'b2\'c4\'a4\'47\'bc\'68\'a6\'b3175\'ad\'d3units\'a1\'41\'b2\'c4\'a4\'54\'bc\'68\'a6\'b375\'ad\'d3units\'a1\'41\'b3\'cc\'ab\'e1\'ac\'4f\'bf\'e9\'a5\'58\'bc\'68\'a5\'75\'a6\'b3\'a4\'40\'ad\'d3units(probability)\'a1\'41\'a8\'c3\'a6\'62\'b2\'c4\'a4\'47\'bc\'68\'a9\'4d\'b2\'c4\'a4\'54\'bc\'68\'b2\'4b\'a5\'5bDropout(0.3)\'aa\'ba\'b6\'b5\'a1\'41\'a8\'e4\'a4\'a4hidden layer\'aa\'baactivation function\'ac\'b0relu\'a1\'41\'a6\'d3\'bf\'e9\'a5\'58\'bc\'68\'a8\'cf\'a5\'cesigmoid\'a1\'43\'b3\'6f\'a8\'c7\'b0\'d1\'bc\'c6\'aa\'ba\'a5\'cd\'a6\'a8\'ac\'4f\'a5\'d1GridSearchCV\'b1\'6f\'a5\'58\'a8\'d3\'aa\'ba\'a1\'41\'a6\'d3model\'a6\'6e\'c3\'61\'aa\'ba\'b5\'fb\'a6\'f4\'aa\'ba\'bc\'d0\'b7\'c7\'ac\'b0KFold\'b1\'6f\'a5\'58\'a8\'d3\'aa\'ba\'a1\'43\
+\
+3.\'b1\'71\'a4\'40\'b6\'7d\'a9\'6c\'aa\'bapreprocessing\'a8\'ec\'b3\'cc\'ab\'e1\'aa\'bafeature engineering \'a4\'a4\'b6\'a1\'b0\'b5\'a4\'46\'ab\'dc\'a6\'68feature\'aa\'ba\'bd\'d5\'be\'e3\'a1\'41\'c0\'b3\'b8\'d3\'bb\'a1kaggle\'b3\'cc\'aa\'e1\'ae\'c9\'b6\'a1\'aa\'ba\'b4\'4e\'ac\'4f\'b3\'6f\'b6\'f4\'a1\'41\'b3\'cc\'ab\'e1\'b1\'6f\'a8\'ec\'aa\'ba\'b5\'b2\'aa\'47\'ac\'b0\'b1\'4ePAY_1\'aa\'ba7,8,9\'b3\'a3map\'a8\'ec6\'a4\'a7\'ab\'e1\'b0\'b5one_hot_encoding\'a1\'41\'b0\'b5\'a7\'b9\'a4\'a7\'ab\'e1\'a6\'41\'a7\'e2PAY_1_6\'b3\'6f\'c4\'e6\'a7\'52\'b0\'a3\'ad\'b0\'a7\'43col\'a4\'a7\'b6\'a1\'aa\'ba\'bd\'75\'a9\'ca\'c3\'f6\'ab\'59\'a1\'43\'a4\'a7\'ab\'e1\'a6\'41\'b1\'4e\'a9\'d2\'a6\'b3\'aa\'bafeature\'c2\'6b\'a4\'40\'a4\'c6\
+\
+4.\'a8\'cf\'a5\'ce\'aa\'ba\'ae\'4d\'a5\'f3\'ac\'b0keras, panda, numpy, sklearn}
